@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const UserDetailsScehma = new mongoose.Schema(
+const UserDetailsSchema = new mongoose.Schema(
     {
         uname:String,
         email:String,
@@ -11,4 +11,4 @@ const UserDetailsScehma = new mongoose.Schema(
     }
 );
 
-mongoose.model("UserInfo",UserDetailsScehma)
+mongoose.model("UserInfo",UserDetailsSchema)
