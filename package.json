@@ -1,0 +1,13 @@
+{
+  "name": "helloapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7"
+  }
+}
